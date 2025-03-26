@@ -105,7 +105,3 @@ class BookViewSet(ModelViewSet):   #  CRUD -> create, post, update, delete
     queryset = Book.objects.all()
     serializer_class = BookSerializers
 
-    # def get_queryset(self):
-    #     queryset = Book.objects.filter(author="admin")
-
-
