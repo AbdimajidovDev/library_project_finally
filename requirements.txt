@@ -6,6 +6,7 @@ Django==5.1.7
 django-allauth==65.5.0
 djangorestframework==3.15.2
 drf-yasg==1.21.10
+gunicorn==23.0.0
 idna==3.10
 inflection==0.5.1
 packaging==24.2
